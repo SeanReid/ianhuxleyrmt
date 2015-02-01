@@ -584,13 +584,21 @@ dd {
   margin-left: 130px;
 }
 
-hr {
+.top-hr {
   margin: 18px 0;
   border: 0;
   border-top: 1px solid #31859c;
   border-bottom: 1px solid #31859c;
   background-color: #31859c;
   height: 20px;
+  margin-top: 25px;
+}
+
+hr {
+  margin: 18px 0;
+  border: 0;
+  border-top: 1px solid #31859c;
+  border-bottom: 1px solid #31859c;
 }
 
 strong {
@@ -3598,7 +3606,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 16px 20px 12px;
+  padding: 5px 20px;
   margin-left: -20px;
   font-size: 50px;
   font-weight: 200;
@@ -3616,6 +3624,13 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
   opacity: 1;
   filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.navbar .sub-brand {
+  color: #953735;
+  font-size: 50%;
+  margin-left: 4px;
+  margin-top: -7px;
 }
 
 .navbar .navbar-text {
@@ -3843,7 +3858,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav.pull-right {
-  margin-right: 0;
+  margin-right: 60px;
   margin-left: 10px;
 }
 
@@ -5027,11 +5042,11 @@ footer > p {
 
 /*********More Custom Styles for Respond Template************/
 .color-highlight {
-	color: #953735;
+  color: #953735;
 }
 .color-highlight-rmt {
-    color: #953735;
-    font-size: 50%;
+  color: #953735;
+  font-size: 50%;
 }
 
 /**********Lightbox CSS starts here************/
