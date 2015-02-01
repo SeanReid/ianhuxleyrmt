@@ -58,6 +58,10 @@
 }
 
 @media (max-width: 767px) {
+  .navbar .nav.pull-right {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
   .visible-phone {
     display: inherit !important;
   }
@@ -141,6 +145,9 @@
 }
 
 @media (max-width: 767px) {
+  img.rmtao {
+    padding-left: 18px;
+  }
   body {
     padding-right: 20px;
     padding-left: 20px;
@@ -152,6 +159,15 @@
   }
   .container-fluid {
     padding: 0;
+  }
+  .top-hr {
+    margin: 0;
+    border: 0;
+    border-top: 0px solid #31859c;
+    border-bottom: 0px solid #31859c;
+    background-color: #31859c;
+    height: 0px;
+    margin-top: 50px;
   }
   .dl-horizontal dt {
     float: none;
@@ -700,10 +716,11 @@
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: 18px;
+    margin-bottom: -50px;
+    height: auto;
   }
   .navbar-fixed-bottom {
-    margin-top: 18px;
+    margin-top: -50px;
   }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
@@ -711,12 +728,13 @@
   }
   .navbar .container {
     width: auto;
-    padding: 0;
+    padding: 5px;
   }
   .navbar .brand {
     padding-right: 10px;
     padding-left: 10px;
-    margin: 0 0 0 -5px;
+    margin: -15px -10px 0px 13px;
+    font-size: 40px;
   }
   .nav-collapse {
     clear: both;
@@ -762,7 +780,7 @@
   }
   .nav-collapse .nav > li > a:hover,
   .nav-collapse .dropdown-menu a:hover {
-    background-color: #A8BF75;
+    background-color: #953735;
   }
   .nav-collapse.in .btn-group {
     padding: 0;
