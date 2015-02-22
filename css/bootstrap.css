@@ -157,7 +157,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #333333;
@@ -422,7 +422,7 @@ a:hover {
 
 p {
   margin: 0 0 9px;
-  font-family: Century Gothic, sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
 p small {
@@ -444,7 +444,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: 'Century Gothic', sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   font-weight: bold;
   color: #9b958b;
   text-rendering: optimizelegibility;
@@ -603,6 +603,7 @@ hr {
 
 strong {
   font-weight: bold;
+  font-size: 120%;
 }
 
 em {
@@ -684,7 +685,7 @@ cite {
 code,
 pre {
   padding: 0 3px 2px;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
@@ -774,7 +775,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
 label {
@@ -3708,7 +3709,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -3822,7 +3823,7 @@ input[type="submit"].btn.btn-mini {
   background-position: 0 0;
   text-decoration: none;
   background-color: transparent;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
 .navbar .nav .active > a,
@@ -5071,7 +5072,7 @@ footer > p {
   z-index: 10000;
   text-align: center;
   line-height: 0;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   font-weight: normal;
 }
 /* line 24, ../sass/lightbox.sass */
@@ -5239,7 +5240,7 @@ img.headshot {
 }
 img.cmto {
   width: auto;
-  height: 125px;
+  height: 70px;
 }
 
 .attention {
