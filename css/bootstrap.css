@@ -5236,7 +5236,7 @@ footer > p {
 img.headshot {
   margin: 5px 10px 1px 0px;
   width: auto;
-  height: 210px;
+  height: 222px;
 }
 img.cmto {
   width: auto;
@@ -5244,7 +5244,7 @@ img.cmto {
 }
 
 .attention {
-  font-size: 150%;
+  font-size: 130%;
 }
 
 .social {
