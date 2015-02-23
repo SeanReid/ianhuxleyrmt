@@ -81,7 +81,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .visible-tablet {
     display: inherit !important;
   }
@@ -93,6 +93,9 @@
   }
   .visible-desktop {
     display: none !important ;
+  }
+  .offset2 {
+    margin-left: 135px;
   }
 }
 
@@ -308,7 +311,7 @@
     margin-left: 206px;
   }
   .offset2 {
-    margin-left: 144px;
+    margin-left: 55px;
   }
   .offset1 {
     margin-left: 82px;
@@ -552,7 +555,7 @@
     margin-left: 115px;
   }
   .cmto {
-      margin-left: 177px;
+      margin-left: 160px;
   }
   .row-fluid {
     width: 100%;
