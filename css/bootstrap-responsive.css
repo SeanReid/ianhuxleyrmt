@@ -79,6 +79,9 @@
 	min-height: 230px;
 	margin-bottom: 10px;
   }
+  img.cmto {
+    margin-left: 80px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -226,7 +229,6 @@
   [class*="span"],
   .row-fluid [class*="span"] {
     display: block;
-    float: none;
     width: auto;
     margin-left: 0;
   }
