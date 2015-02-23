@@ -106,6 +106,24 @@
   li {
     line-height: 21px;
   }
+  .new-span2 {
+    width: 155px;
+  }
+  .new-span8 {
+      width: 580px;
+  }
+  .new-span4 {
+    width: 330px;
+  }
+  .small-address {
+    margin-bottom: -14px;
+  }
+  .attention {
+    font-size: 135%;
+  }
+  .top-map {
+    margin-left: -18px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -153,6 +171,11 @@
   }
   .carousel-caption {
     position: static;
+  }
+  img.cmto {
+    width: auto;
+    height: 66px;
+    margin-left: -8px;
   }
 }
 
@@ -268,6 +291,9 @@
   .span8 {
     width: 476px;
   }
+  .new-span8 {
+    width: 425px;
+  }
   .span7 {
     width: 414px;
   }
@@ -280,11 +306,22 @@
   .span4 {
     width: 228px;
   }
+  .new-span4 {
+    width: 277px;
+  }
   .span3 {
     width: 166px;
   }
   .span2 {
     width: 104px;
+  }
+  .new-span2 {
+    width: 160px;
+    margin-bottom: 15px;
+  }
+  .small-address {
+    padding-top: 20px;
+    margin-bottom: -5px;
   }
   .span1 {
     width: 42px;
@@ -473,6 +510,9 @@
   }
   .header {
     margin-bottom: 17px;
+  }
+  .cancellations {
+    padding-top: 11px;
   }
 }
 .thumb-list {
