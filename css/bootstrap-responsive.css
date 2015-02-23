@@ -95,7 +95,10 @@
     display: none !important ;
   }
   .offset2 {
-    margin-left: 135px;
+    margin-left: 115px;
+  }
+  .offset1 {
+    margin-left: 100px;
   }
 }
 
