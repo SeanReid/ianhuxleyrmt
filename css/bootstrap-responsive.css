@@ -100,6 +100,12 @@
   .offset1 {
     margin-left: 100px;
   }
+  ul {
+      margin-bottom: 15px;
+  }
+  li {
+    line-height: 21px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -458,6 +464,15 @@
   textarea.span1,
   .uneditable-input.span1 {
     width: 32px;
+  }
+  ul {
+    margin-bottom: 15px;
+  }
+  li {
+    line-height: 25px;
+  }
+  .header {
+    margin-bottom: 17px;
   }
 }
 .thumb-list {
